@@ -15,10 +15,10 @@ public class Drive {
 	public Drive(Joystick js, double thresh){
 		joystick = js;
 		threshold = thresh;
-		driveLeft1 = new TalonSRX(0);
-		driveLeft2 = new TalonSRX(1);
-		driveRight1 = new TalonSRX(2);
-		driveRight2 = new TalonSRX(3);
+		driveLeft1 = new TalonSRX(1);
+		driveLeft2 = new TalonSRX(2);
+		driveRight1 = new TalonSRX(5);
+		driveRight2 = new TalonSRX(4);
 	}
 	
 	public void runPeriodic(){
